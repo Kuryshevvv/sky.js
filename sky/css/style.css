@@ -1,0 +1,460 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Comfortaa', cursive;
+}
+
+.center {
+  padding-left: calc(50% - 602px);
+  padding-right: calc(50% - 602px);
+}
+
+a {
+  text-decoration: none;
+}
+
+.mark {
+  color: #FFFFFF;
+}
+
+.header__title {
+  font-family: Comfortaa;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 78px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #FFFFFF;
+  padding-top: 217px;
+  width: 788.78px;
+  height: 125.01px;
+}
+
+.header__description {
+  font-family: Comfortaa;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #7a7979;
+  margin-top: 32px;
+  width: 481px;
+  height: 64px;
+}
+
+.header__button, .season__game--button, .remeber__game--button, .riddles__game--button {
+  background: #9C0332;
+  border-radius: 30px;
+  border: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 234.06px;
+  height: 48.6px;
+  color: #FFFFFF;
+  margin-top: 44px;
+  font-family: Comfortaa;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  cursor: pointer;
+}
+
+.main-top {
+  background-image: url(../img/main.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1024px;
+}
+
+.content__img {
+  border-radius: 18px;
+  width: 349px;
+  height: 300px;
+  cursor: pointer;
+}
+
+.content__img:hover {
+  border: 1px solid #44D2FF;
+}
+
+.season__game, .remeber__game {
+  height: 800px;
+  background: #000915;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.riddles__game {
+  background-image: url(../img/bottom.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+}
+
+.riddles__game_description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer {
+  height: 80px;
+  background-color: #000915;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.season__game_description {
+  width: 584px;
+  height: 313.61px;
+  margin-top: 280px;
+}
+
+.footer__title {
+  font-size: 12px;
+  line-height: 15px;
+  color: #a3a3a3;
+}
+
+.remeber__img {
+  margin-top: -15px;
+}
+
+.remeber__game_description {
+  width: 588px;
+  height: 235.6px;
+  margin-top: 280px;
+}
+
+.season__game--name, .remeber__game--name {
+  font-size: 48px;
+  line-height: 59px;
+  color: #FFFFFF;
+}
+
+.riddles__game--name {
+  font-size: 48px;
+  line-height: 59px;
+  color: #FFFFFF;
+  margin-top: 276px;
+}
+
+.riddles__game--regulation {
+  font-family: Comfortaa;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #7a7979;
+  margin-top: 32px;
+  width: 1000px;
+  height: 64px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.remeber__game--regulation, .season__game--regulation {
+  font-family: Comfortaa;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #7a7979;
+}
+
+.flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 135px;
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 32px;
+  height: 556px;
+  background: #000915;
+}
+
+.container {
+  display: inline-block;
+  position: relative;
+}
+
+.container div {
+  display: inline-block;
+  position: absolute;
+  font-family: Comfortaa;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  left: 0px;
+  padding: 272px 5px 5px 10px;
+  color: white;
+}
+
+.season__game--button:hover {
+  background: #EB443F;
+}
+
+.remeber__game--button:hover {
+  background: #EB443F;
+}
+
+.riddles__game--button:hover {
+  background: #EB443F;
+}
+
+.header__button:hover {
+  background: #EB443F;
+}
+
+@media (max-width: 767px) {
+  .center {
+    padding-left: calc(50% - 175px);
+    padding-right: calc(50% - 175px);
+  }
+  .main-top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-position: center;
+    background-color: #000915;
+    height: 700px;
+  }
+  .header__title {
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    width: 343px;
+    padding-top: 170px;
+  }
+  .header__description {
+    color: #dad8d8;
+    width: 343px;
+    height: 66px;
+    left: 16px;
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  mark {
+    display: none;
+  }
+  .header__button {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #FFFFFF;
+    width: 235px;
+    height: 48.6px;
+    border-radius: 30px;
+  }
+  .season__game--name, .remeber__game--name, .riddles__game--name {
+    width: 243px;
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .riddles__game--regulation, .remeber__game--regulation, .season__game--regulation {
+    width: 343px;
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .season__game {
+    margin-top: 0;
+  }
+  .remeber__game {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    height: 700px;
+  }
+  .content {
+    height: 1186px;
+  }
+  .flex-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 35px;
+  }
+  .season__game_description, .remeber__game_description {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 46px;
+    margin-top: 0;
+    width: 349px;
+    height: 300px;
+  }
+  .riddles__game_description {
+    height: 370px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 46px;
+  }
+  .season__game--button, .remeber__game--button, .riddles__game--button {
+    margin-top: 0px;
+    height: 48px;
+  }
+  .remeber__img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 100%;
+    height: 236px;
+    margin-top: 0;
+  }
+  .season__img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 100%;
+    height: 241px;
+  }
+  .riddles__game--name {
+    margin-top: 52px;
+  }
+  .riddles__game {
+    height: 650px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

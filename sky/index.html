@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Добро пожаловать на мой сайт !</title>
+</head>
+<body>
+<div class="main-top center">
+        <h1 class="header__title">Добро пожаловать на мой сайт !</h1>
+              <p class="header__description">Вам предстоит пройти несколько увлекательных игр. Если готов нажимай поехали и приступай </p>
+             <button class="header__button"> Поехали!</button>
+</div>
+<div class="content center">
+    <div class="container">
+        <div> Игра 1</div>
+        <a href="#season"><img class="content__img" src="./img/game1.jpg" alt="#" ></a>
+    </div>
+    <div class="container">
+       <a href="#remeber"><img class="content__img" src="./img/game2.jpg" alt="#" ></a> 
+        <div> Игра 2</div>
+    </div>
+    <div class="container">
+       <a href="#riddles"><img class="content__img" src="./img/game3.jpg" alt="#" ></a> 
+        <div> Игра 3</div>
+    </div>
+    
+    
+    
+</div>             
+    
+        <section id="season" class ="season__game flex-container center" >
+            <div  class="season__game_description">
+                <h2 class="season__game--name">Времена года<a name = "#1"></a></h2>
+    
+            <p class= "season__game--regulation">Вам предстоит пройти несколько увлекательных игр. Если готов нажимай поехали и приступай </p>
+            <button class = "season__game--button" onclick = "season()"><p class="a">Играть</p></button>
+        </div>
+            <img class="season__img" src="./img/undraw.svg" >
+        </section>
+
+
+
+    <section id="remeber" class ="remeber__game flex-container center" >
+            <img class="remeber__img" src="./img/undraw_gaming_re_cma2 1.svg" >
+        <div class="remeber__game_description">
+<h2 class="remeber__game--name">Запомни слова </h2>
+        <p class= "remeber__game--regulation">При нажатии на кнопку играть, вы увидите несколько слов, которые вам необходимо запомнить.</p>
+        <button class = "remeber__game--button" onclick="remember()"><p class="a">Играть</p></button>
+    </div>
+    </section>
+
+
+    <section id="riddles" class ="riddles__game center" >
+        <div class="riddles__game_description">
+        <h2 class="riddles__game--name">Игра в загадки</h2>
+        <p class= "riddles__game--regulation">Компьютер загадывает загадку, вам необходимо ее угадать, если вы дадите не правильный ответ, то компьютер даст вам подсказку. У вас будет три попытки и две подсказки.</p>
+        <button class = "riddles__game--button" onclick = "riddle()"><p class="a">Играть</p></button>
+    </div>
+    </section>
+
+
+    <footer center>
+        <p class="footer__title">Все права защищены</p>
+    </footer>
+    
+    <script src="./main.js"></script>   
+    </body>
+</html>

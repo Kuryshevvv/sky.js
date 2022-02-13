@@ -1,0 +1,157 @@
+@media (max-width:767px) {
+
+    .center {
+        padding-left: calc(50% - 175px);
+        padding-right: calc(50% - 175px);
+    }
+
+    .main-top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-position: center;
+        background-color: #000915;
+        height: 700px;
+    }
+    
+    .header__title {
+        font-family: Comfortaa;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 39px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+        width: 343px;
+        padding-top: 170px;
+    }
+
+    .header__description {
+        color: #dad8d8;
+        width: 343px;
+        height: 66px;
+        left: 16px;
+        font-family: Comfortaa;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    mark {
+        display: none;
+    }
+
+    .header__button {
+        justify-content: center;
+        font-family: Comfortaa;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+        width: 235px;
+        height: 48.6px;
+        border-radius: 30px;
+    }
+
+    .season__game--name, .remeber__game--name, .riddles__game--name {
+        width: 243px;
+        font-family: Comfortaa;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 39px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+
+    .riddles__game--regulation, .remeber__game--regulation, .season__game--regulation {
+        width: 343px;
+        font-family: Comfortaa;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    
+    .season__game {
+        margin-top: 0;
+    }
+
+    .remeber__game {
+        display: flex;
+    flex-direction: column-reverse;
+    height: 700px;
+    }
+
+    .content {
+        height: 1186px;
+    }
+
+
+    .flex-container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 35px;
+    }
+
+
+  .season__game_description, .remeber__game_description {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 46px;
+        margin-top: 0;
+        width: 349px;
+        height: 300px;
+    }
+
+    .riddles__game_description {
+        height: 370px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 46px;
+    }
+  
+    .season__game--button, .remeber__game--button, .riddles__game--button {
+        margin-top: 0px;
+        height: 48px;
+    }
+
+    .remeber__img {
+        object-fit: cover;
+        width: 100%;
+        height: 236px;
+        margin-top: 0;
+    }
+    .season__img {
+        object-fit: cover;
+        width: 100%;
+        height: 241px
+    }
+
+    .riddles__game--name {
+        margin-top: 52px;
+    }
+    .riddles__game {
+        height: 650px;
+    }
+}
